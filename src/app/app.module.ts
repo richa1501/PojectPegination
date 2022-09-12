@@ -14,12 +14,11 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
   ],
   imports: [
     HttpClientModule,
-    BrowserModule,
-    Ng2SearchPipeModule,
+    BrowserModule,    
     AppRoutingModule,
     NgxPaginationModule,
-   FormsModule
-    
+    Ng2SearchPipeModule,
+    FormsModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
